@@ -4,102 +4,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task1</title>
-
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
 
 </head>
 
-<body style="margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; overflow-x: hidden;" id="home">
-    <nav class="nav"
-        style="background-color:#023047 ;z-index: 1; display: flex; justify-content: space-between; padding: 5px 5px; height: 60px; position:fixed; top: 0;width: 100%;">
-        <div style="display: flex; justify-content: center; align-items: center;">
-            <a href="#" style="color: #8ecae6; font-size: 2.5rem;  text-decoration: none;"><span
-                    style="color: #fb8500;">Z</span>ack<span style="color: #fb8500;">_Code</span></a>
-        </div>
-        <div style="font-size: 1.5rem; display: flex; justify-content: center; align-items: center; ">
-            <a href="#home" style=" color: #8ecae6; text-decoration: none; margin-right: 20px;">Home</a>
-            <a href="#About-us" style=" color: #8ecae6;  text-decoration: none; margin-right: 20px;">About me</a>
-            <a href="#contact-us" style=" color: #8ecae6;  text-decoration: none; margin-right: 20px;">Contact Us</a>
+<body>
+
+
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" id="Logo"><span>Z</span>ack_<span>Code.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#About-me">About me</a>
+                    <a class="nav-link" href="#contact-me">Contact me</a>
+
+                </div>
+            </div>
         </div>
     </nav>
-    <section style="background-color: #023047 ; height: 100vh ;padding-top:60px;" id="Home">
-        <section>
-            <video width="100%" height="640px" controls>
-                <source src="Download.mp4">
-            </video>
-        </section>
+    <section class="container-fluid home" id="home">
+
+        <video width="100%" height="640px" controls>
+            <source src="Download.mp4">
+        </video>
+
     </section>
 
-    <section id="About-us" style="min-height: 100vh; background-color:#219ebc;">
-        <div style="padding-top: 60px;">
-            <div style="overflow: hidden;">
-                <div
-                    style="border-radius: 50%; width: 400px; height: 400px; overflow: hidden; float: right;margin: 100px 40px 0 20px;">
-                    <div
-                        style="background-image: url('MAINPIC.jpg');width: 400px; height: 400px; background-size: cover;">
+    <section class="About-me container-fluid text-center" id="About-me">
+        <div class="row">
+            <div class="container-fluid col-md-6 about-img float-md-end ">
+                <div class="in-img" style="background-image: url('MAINPIC.jpg');">
+
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 para-box">
+                <h1 id="fullName" style="color: #ffb703; padding: 80px 0 0 20px; font-weight: 700; font-size: 4rem;">
+                </h1>
+                <p class="about-para bio">
+                </p>
+                <p class="about-para bio2">
+                </p>
+            </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="list-group">
+                        <a href="" class="list-group-item list-group-item-action active link1" aria-current="true">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1 title1"></h5>
+                                <small class="date1"></small>
+                            </div>
+                            <p class="mb-1 c-para1"></p>
+                            <small class="verify1"></small>
+                        </a>
+                        <a href="" class="list-group-item list-group-item-action link2">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1 title2"></h5>
+                                <small class="text-body-secondary date2"></small>
+                            </div>
+                            <p class="mb-1 c-para2"></p>
+                            <small class="text-body-secondary verify2"></small>
+                        </a>
+                        <a href="" class="list-group-item list-group-item-action link3">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1 title3"></h5>
+                                <small class="text-body-secondary date3"></small>
+                            </div>
+                            <p class="mb-1 c-para3">,</p>
+                            <small class="text-body-secondary verify3">
+                            </small>
+                        </a>
                     </div>
                 </div>
-
-                <h1 style="color: #ffb703; width: 40%; padding: 80px 0 0 20px; font-weight: 700; font-size: 4rem;">
-                    Moropane Kutullo</h1>
-                <p style="width: 40%; padding: 2px 0 0 20px; "> <b>My Bio:</b>Welcome to my potfolio! As a junior
-                    fullstake developer, I spacialize in designing and deploying modern websites that seamlessly adapt
-                    to any device or media platform. With expertise in responsive design, I craft visually appealing
-                    websites infused with captivating animations, smooth transitions and legible fonts.committed to
-                    excellence, I prioritize delivering projects within strict timeframes. Explore my potfolio to
-                    witness my dedication to creating immersive web experiences.</p>
-                <p style="width: 40%; padding: 2px 0 0 20px;">My name is Moropane Kutullo Innocent, and I hail from the
-                    vabrant
-                    country of south africa. My journey into the real of technology began in 2021 when I embarked on a
-                    Computer Systems engineering course at Tshwane University of Technology. However, it wasn't until
-                    2022 that I discovered my true passion for web development. My initiation into this exciting field
-                    come through creating my first online store project using WordPress.</p>
-
             </div>
+
+
         </div>
+
     </section>
 
-    <section id="contact-us" style="background-color: #fb8500;color: #023047; height: 100vh; overflow: hidden;">
-        <div style="display: flex; padding-top: 100px; ">
-            <div style="width:35% ; padding-left: 60px;">
+
+    <section class="contact-me container-fluid " id="contact-me">
+        <div class="row">
+            <div class="col-lg-4">
+                <h1 style="border-bottom: .1rem solid  #219ebc ;" class="address0">Address</h1>
                 <address>
-                    <h1 style="border-bottom: .1rem solid  #219ebc ;">Address</h1>
-                    <h3>City:Pretoria</h3>
-                    <h4>Suburb:City of Tshwane</h4>
-                    <h3>Coutry:South Africa</h3>
-                </address>
-                <div style="display: flex; justify-content: space-between;">
-                    <h1
-                        style="border: .2rem solid #8ecae6;width: 45px;background-color: #8ecae6;height: 45px; border-radius: 50%; display: flex;justify-content: center;align-items: center;">
-                        <a href="" style="text-decoration: none;">T</a>
-                    </h1>
-                    <h1
-                        style="border: .2rem solid #8ecae6;background-color: #8ecae6;width: 45px;height: 45px; border-radius: 50%; display: flex;justify-content: center;align-items: center;">
-                        <a href="" style="text-decoration: none;">F</a>
-                    </h1>
-                    <h1
-                        style="border: .2rem solid #8ecae6;background-color: #8ecae6;width: 45px;height: 45px; border-radius: 50%; display: flex;justify-content: center;align-items: center;">
-                        <a href="" style="text-decoration: none; background-color: ;">I</a>
-                    </h1>
-                </div>
-            </div>
-            <div style="width:20% ;padding: 0 5%;">
-                <h1 style="margin-bottom: 25px;">Additional Links</h1>
-                <a href="https://ikcracker.github.io/potfolio/">My other potfolio</a>
 
+                    <h2 claas="address1"></h2>
+                    <h3 claas="address2"></h3>
+                    <h3 claas="address3">
+                        </h4>
+                        <h3 claas="address4"></h3>
+                </address>
             </div>
-            <div style="width: 35%; overflow: hidden;">
-                <h1>MAP</h1>
-                <div style="width: 100%; overflow: hidden; padding-right: 20%;">
-                    <iframe
-                        src="
-                    https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7199.877733146888!2d28.093438400000007!3d-25.54041319999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoggles%20app!5e0!3m2!1sen!2sza!4v1714498902094!5m2!1sen!2sza"
-                        width="80%" height="450px" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
+            <div class="col-lg-3 media-box ">
+                <div class="row-12 media">
+                    <h1 class="col-lg-6">
+                        <a href="">
+                            <i class='bx bxl-whatsapp'></i></a>
+                    </h1>
+                    <h1 class="col-lg-6">
+                        <a href="">
+                            <i class='bx bxl-github'></i></a>
+                    </h1>
                 </div>
+            </div>
+            <div class=" col-md-5">
+                <form id="form" class="form" action="https://formspree.io/f/mnqewvra" method="POST"
+                    onsubmit="return redirect()">
+                    <div class="mb-3">
+                        <label for="name" class="form-label name">username</label>
+                        <input type="input" class="form-control" name="name" id="name" placeholder="username" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="surname" class="form-label surname">Surname</label>
+                        <input type="input" class="form-control" name="surname" id="surname" placeholder="Surname"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label email">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="messege" class="form-label messege">Let's talk</label>
+                        <textarea class="form-control" id="messege" name="message" rows="3" required></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="terms" required>
+                        <label class="form-check-label" for="terms"><a href="terms/terms.html">Accept my terms and
+                                condition</a></label>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                    <div class="mb-3 warning">
+                        <p class="error">Fill the form!</i></p>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <script src="/js/app.js"></script>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <div class="col-md-12">
+            <div class="container-md-8 mt-2 map">
+                <iframe
+                    src="
+            https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7199.877733146888!2d28.093438400000007!3d-25.54041319999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoggles%20app!5e0!3m2!1sen!2sza!4v1714498902094!5m2!1sen!2sza"
+                    width="80%" height="650px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
             </div>
         </div>
+
     </section>
+
+
+
 
 </body>
 
