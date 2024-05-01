@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+     font-family: sans-serif; 
+     overflow-x: hidden;
+}
+.logo{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #8ecae6;
+}
+.nav{
+  
+   
+}
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    top: 0;
+    width: 100%;
+}
+.nav-b{
+    background-color:#023047 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body > nav{
+    background-color:#023047 ;
+    z-index: 1; display: flex;
+    justify-content: space-between;
+    padding: 5px 5px; height: 60px; 
+    position:fixed; 
+    top: 0;
+    width: 100%;
+}
+.nav > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav > div>a{
+   
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #8ecae6;
+}
+
+.nav > div>a span{
+    color: #fb8500;  
+}
+
+.nav .navlinks{
+    
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.nav .navlinks a{
+    color: #8ecae6;
+    text-decoration: none;
+    margin-right: 80px;
+    font-size: 1.2rem;
+    transition: .2s;
+}
+.nav .navlinks a:hover{
+    color: #219ebc;
+    font-size: 1.5rem;
+}
+#home{
+    background-color: #023047 ; height: 100vh ;padding-top:60px;
+}
+#About-us{
+    min-height: 100vh; background-color:#219ebc;
+}
+
+#About-us>div{
+    padding-top: 60px;
+}
+.about-box>div{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    float: right;
+    margin: 100px 40px 0 20px;
+}
+
+.about-box>div>div{
+    background-image: url('/MAINPIC.jpg');width: 400px; height: 400px; background-size: cover;
+}
+.about-heading{
+    color: #ffb703; width: 40%; padding: 40px 0 0 20px; font-weight: 700; font-size: 4rem;
+}
+.about-para{
+    width: 40%;
+  padding: 2px 0 0 20px; 
+}
+.certificate{
+    padding: 2px 0 0 20px;
+    display:flex;
+    flex-direction: column;
+      
+}
+.certificate a{
+    text-decoration: none; 
+    color: #ffb703;
+    font-size: 1.4rem;
+}
+#contact-us{
+    background-color: #fb8500;color: #023047; min-height: 100vh; overflow: hidden;
+}
+.contact-box{
+    
+    padding-top: 100px; 
+   
+}
+.left{
+    width:35% ; padding-left: 60px;
+}
+address>h1{
+    border-bottom: .1rem solid  #219ebc ;
+}
+.social{
+    display: flex; justify-content: space-between;
+}
+.social>h1{
+    border: .2rem solid #8ecae6;width: 45px;background-color: #8ecae6;height: 45px; border-radius: 50%; display: flex;justify-content: center;align-items: center;
+}
+.social>h1>a{
+    text-decoration: none;
+}
+.links{
+    
+   width:20% ;padding: 0 5%;
+}
+
+form input{
+    height: 2.4rem;
+    width: 100%;
+    border-radius: 25px;
+    padding: 0  0 0 20px ;
+    margin-bottom: 10px;
+    border: none;
+    color: #219ebc;
+}
+form textarea{
+  
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    padding: 30px  0 0 20px ;
+}
+form button{
+    border-radius: 25px;
+    height: 2.4rem;
+    padding: 0 40px;
+    margin-top: 15px;
+    background: #023047;
+    color: #8ecae6;
+}
+.map{
+    
+     overflow: hidden;
+}
