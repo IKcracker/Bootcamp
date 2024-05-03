@@ -43,8 +43,7 @@ let certificates = [ {
     ● learn how applications are created and how they work under the hood of a computer
     ● utilize common problem-solving methodologies and soft skills in an Information
     Technology setting`,
-    verify:`Moropane Kutullo Innocent's account is verified. Coursera certifies their successful
-    completion of Google Google IT Support Specialization.`
+    verify:`Click me!`
 
 },
 {   link:`https://coursera.org/share/aa6e6aab0c1a88085ff0a3ae143f9722`,
@@ -59,8 +58,7 @@ let certificates = [ {
     active in the cybersecurity field (engineers and computer scientists will learn the
     broader context and business aspects of cybersecurity), and will provide the principles
     to understand the current debates shaping a rapidly evolving security landscape.`,
-    verify:`Moropane Kutullo Innocent's account is verified. Coursera
-    certifies their successful completion of a Cybersecurity for Everyone`,
+    verify:`Click me!`,
 },
 {   link:`https://coursera.org/share/1665cdb1a99e1bbb20135d221afe098d`,
     title:"Introduction to Back-End Developmente",
@@ -70,8 +68,7 @@ let certificates = [ {
     Create and style a webpage with HTML and CSS.,
 
     The benefits of working with UI frameworks.`,
-    verify:`Moropane Kutullo Innocent's account is verified. Coursera
-    certifies their successful completion of Introduction to Back-End Developmente`,
+    verify:`Click me!`,
 }]
 
 
