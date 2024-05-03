@@ -20,6 +20,7 @@
     color: #8ecae6; 
     text-decoration: none; 
     margin-right: 20px;
+    padding-top:20px;
    
 }
 .navbar-nav .active{
@@ -34,9 +35,6 @@
     justify-content:flex-start; 
     align-items: center;
     background:#023047 !important ;
-}
-a.nav-link {
-    padding-top: 22px;
 }
 .home{
     background: #023047 !important;
