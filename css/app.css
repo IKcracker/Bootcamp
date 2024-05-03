@@ -35,6 +35,9 @@
     align-items: center;
     background:#023047 !important ;
 }
+a.nav-link {
+    padding-top: 22px;
+}
 .home{
     background: #023047 !important;
     height: 100vh ;
